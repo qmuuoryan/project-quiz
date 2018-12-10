@@ -1,5 +1,5 @@
-{TRIANGLE TRACKER}
-{it enables the user to enter three triangle values and when you click the OK button the application feedbacks if the triangle is an isoceles, equilateral, scalene or if its not a triangle. }, {29/11/2018}
+#{QUIZ PROJECT}
+#{it enables the user to enter three triangle values and when you click the OK button the application feedbacks if the triangle is an isoceles, equilateral, scalene or if its not a triangle. }, {29/11/2018}
 By {RYAN MUUO}
 Description
 {Three text boxes appear where by you enter your values and when you click submit an alert button appears and tells you whether the the triangle values are equilateral, isoceles, scalene or not a triangle. }
