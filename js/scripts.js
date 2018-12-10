@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $(".Click").click(function() {
+  $("#Click").click(function() {
     $("#Questions").show();
   });
 });
