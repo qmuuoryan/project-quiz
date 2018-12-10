@@ -8,7 +8,7 @@ p{
   text-align: left;
 }
 .jumbotron{
-  background-color: tan;
+  background-color: yellow;
   text-align: center;
   font-family: sans-serif;
 }
@@ -16,8 +16,7 @@ p{
 .well{
   background-color: red;
   font-family: sans-serif;
-  font-style: italic;
-  cursor: pointer;
+  font
 }
 #submit{
   float: left;
