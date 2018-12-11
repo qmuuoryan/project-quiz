@@ -1,35 +1,40 @@
  #questions {
-  display: none;
+   display: none;
+ }
 
-}
-p{
-  color: black;
-  font-size: 20px;
-  text-align: left;
+ p {
+   color: black;
+   font-size: 20px;
+   text-align: left;
+ }
 
-}
-.jumbotron{
-  background-color: yellow;
-  text-align: center;
-  font-family: sans-serif;
-}
-}
-.well{
-  font-family: sans-serif;
-}
-.button{
-  float: left;
-  border-radius: 20px;
-  border-color: black;
-}
-#reset{
-  float: right;
-}
-}
-#button{
-  border-radius: 20px;
-}
-.container{
-  background-color: tan;
-  border-radius: 20px;
-}
+ .jumbotron {
+   background-color: yellow;
+   text-align: center;
+   font-family: sans-serif;
+ }
+ }
+
+ .well {
+   font-family: sans-serif;
+ }
+
+ .button {
+   float: left;
+   border-radius: 20px;
+   border-color: black;
+ }
+
+ #reset {
+   float: right;
+ }
+ }
+
+ #button {
+   border-radius: 20px;
+ }
+
+ .container {
+   background-color: tan;
+   border-radius: 20px;
+ }
