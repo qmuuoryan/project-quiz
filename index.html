@@ -10,144 +10,100 @@
   <title>QUIZ</title>
 </head>
 
-<div class="container">
-  <div class="jumbotron">
-    <h1>This Is A Quiz For Javascript!</h1>
-  </div>
-  <p><strong><em>Questions:</em></strong><button type="button" class="Click">Click here to start!</button></p>
-  <div id="Questions">
-    <div class="well">
-      <div class="row">
-        <div class="column-sm-4">
-          <form id="Question 1:">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <p class="panel-title"><strong>1. What is the return value of the prompt() function?</strong></p>
+<body background="">
+  <div class="container">
+    <div class="jumbotron">
+      <h1>This Is A Quiz For Javascript!<br>ENJOY:-)</h1>
+    </div>
+    <p><strong><em>Questions:</em></strong><button type="button" id="Click">Click here to start!</button></p>
+    <div id="Questions">
+      <div class="well">
+        <div class="row">
+          <div class="column-sm-4">
+            <form id="question1">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <p class="panel-title"><strong>1. What is the return value of the prompt() function?</strong></p>
+                </div>
               </div>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="Question 1" id="boolean">
-                Boolean
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="Questin 1" id="String">
-                String
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="Question 1" id="Undefined">
-                Undefined
-              </label>
-
-            </div>
-          </form>
+              <input type="radio" name="question1" value="boolean">
+              Boolean<br>
+              <input type="radio" name="question1" value="String">
+              String<br>
+              <input type="radio" name="question1" value="Undefined">
+              Undefined<br>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
 
 
-    <div class="well">
-      <div class="row">
-        <div class="column-sm-4">
-          <form id="Question 2:">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <p class="panel-title"><strong>2.Is Javascript and Java programming languages the same?</strong></p>
+      <div class="well">
+        <div class="row">
+          <div class="column-sm-4">
+            <form id="question2">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <p class="panel-title"><strong>2.Which is not a Javascript data type?</strong></p>
+                </div>
               </div>
-            </div>
-            <div id="radio">
-              <label>
-                <input type="radio" name="Question 2" id="yes">
-                yes
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="Question 2 " id="No">
-                No
-              </label>
-            </div>
-          </form>
+              <input type="radio" name="question2" value="boolean">
+              Boolean<br>
+              <input type="radio" name="question2" value="String">
+              String<br>
+              <input type="radio" name="question2" value="Variable">
+              Variable<br>
+              <input type="radio" name="question2" value="Null">
+              Null<br>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
 
+      <div class="well">
+        <div class="row">
+          <div class="column-sm-4">
+            <form id="question3">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <p class="panel-title"><strong>3.What is the javascript syntax for printing values in console?</strong></p>
+                </div>
+              </div>
+              <input type="radio" name="question3" value="print()">
+              print()<br>
+              <input type="radio" name="question3" value="console.log()">
+              console.log()<br>
+              <input type="radio" name="question3" value="console.print()">
+              console.print()<br>
+            </form>
+          </div>
+        </div>
+      </div>
     <div class="well">
       <div class="row">
-        <div class="column-sm-4">
-          <form id="Question 3:">
+        <div class="column-md-6">
+          <form id="question4">
             <div class="panel panel-default">
               <div class="panel-heading">
-                <p class="title"><strong>3.How is function ryan called in javascript?</strong></p>
+                <p class="panel-title"><strong>4.How is function ryan called in javascript?</strong></p>
               </div>
             </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name"Question 3" id=function.ryan()>
-                function.ryan()
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name"Question 3" id=function ryan()>
-                function ryan()
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name"Question 3" id=function=ryan()>
-                function=ryan()
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name"Question 3" id=function:ryan()>
-                function:ryan()
-              </label>
+            <input type="radio" name="question4" value="function.ryan()">
+            function.ryan()<br>
+            <input type="radio" name="question4" value="function ryan()">
+            function ryan()<br>
+            <input type="radio" name="question4" value="function=ryan()">
+            function=ryan()<br>
+            <input type="radio" name="question4" value="function:ryan()">
+            function:ryan()<br>
+            <input type="submit" id="submit"><br><input type="reset"  id="reset">
+
           </form>
         </div>
       </div>
     </div>
   </div>
-
-  <div class="well">
-    <div class="row">
-      <div class="column-md-6">
-        <form id="Question 4:">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <p class="panel-title"><strong>4.What is the javascript syntax for printing values in console?</strong></p>
-            </div>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="Question 4" id="print()">
-              print()
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="Question 4 " id="console.log()">
-              console.log()
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="Question 4 " id="console.print()">
-              console.print()
-            </label>
-          </div>
-        </form>
-      </div>
-    </div>
   </div>
-</div>
-</div>
-</div>
 </body>
 
 </html>
