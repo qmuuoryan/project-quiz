@@ -1,11 +1,12 @@
- #Questions {
+ #questions {
   display: none;
 
 }
 p{
-  color: black;
+  color: green;
   font-size: 20px;
   text-align: left;
+
 }
 .jumbotron{
   background-color: yellow;
@@ -16,11 +17,18 @@ p{
 .well{
   background-color: red;
   font-family: sans-serif;
-  font
+  border-radius: 50%;
 }
 #submit{
   float: left;
+  border-radius: 20px;
+  border-color: black;
 }
 #reset{
+  float: right
+}
+#result{
   float: right;
+  border-radius: 20px;
+  border-color: black;
 }
