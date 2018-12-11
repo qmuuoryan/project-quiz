@@ -3,7 +3,7 @@
 
 }
 p{
-  color: green;
+  color: black;
   font-size: 20px;
   text-align: left;
 
@@ -15,23 +15,21 @@ p{
 }
 }
 .well{
-  background-color: red;
   font-family: sans-serif;
-  border-radius: 50%;
 }
-#submit{
+.button{
   float: left;
   border-radius: 20px;
   border-color: black;
 }
 #reset{
-  float: right
-}
-#result{
   float: right;
-  border-radius: 20px;
-  border-color: black;
+}
 }
 #button{
+  border-radius: 20px;
+}
+.container{
+  background-color: tan;
   border-radius: 20px;
 }
